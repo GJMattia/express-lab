@@ -1,0 +1,81 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color:beige;
+
+}
+
+body{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    font-family: impact;
+    background-color: dodgerblue;
+    color:white;
+    border-radius: 1rem;
+    padding:2rem;
+    font-size: 3rem;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: impact;
+    background-color: crimson;
+    color:white;
+    border-radius: 1rem;
+    padding:2rem;
+    font-size: 1.5rem;
+    list-style: none;
+    
+}
+
+li{
+    background-color: purple;
+    margin:.5rem;
+    padding:1rem;
+    border-radius: 1rem;
+}
+
+p{
+    border-radius: 1rem;
+    color:white;
+    padding:1rem;
+    font-family: impact;
+    background-color: cadetblue;
+    font-size: 1.5rem;
+}
+
+
+li:hover{
+    color:yellow;
+    cursor: pointer;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:dodgerblue;
+}
+
+.back{
+    border-radius: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    font-family: impact;
+    font-size: 1.5rem;
+    background-color: rgb(61, 0, 135);
+    color:white;
+    text-decoration: none;
+}
